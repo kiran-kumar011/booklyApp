@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  padding: 50px;
+  margin: 0 auto;
+  text-align: center;
+  background: linear-gradient(270deg, dodgerblue, lightcyan); }
+
+h1 {
+  font-size: 120px;
+  font-style: italic;
+  color: white;
+  font-weight: 900;
+  margin: 10px; }
+
+input, button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  outline: none; }
+
+.addBook {
+  width: 550px;
+  height: 30px;
+  color: rgba(30, 144, 255, 0.6);
+  font-size: 28px;
+  font-weight: 200;
+  padding: 0 10px 5px 10px; }
+
+.addBookContainer {
+  margin: 30px auto;
+  width: 600px;
+  padding: 10px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  border-radius: 50px;
+  background-color: white;
+  text-align: center; }
+
+.addBookContainer:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.addList {
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  padding: 4px 10px; }
+
+.listContainer {
+  margin: 0 auto;
+  width: 650px;
+  padding: 30px; }
+
+li {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  align-items: center;
+  text-align: left;
+  padding: 13px 20px;
+  overflow: auto;
+  color: rgba(30, 144, 255, 0.5);
+  word-break: break-word;
+  font-size: 35px;
+  font-weight: 100;
+  background-color: white; }
+
+.hideAll {
+  display: none; }
+
+li:hover {
+  background-color: rgba(240, 248, 255, 0.7); }
+
+li span {
+  padding-left: 30px;
+  font-style: italic; }
+
+p {
+  display: inline-block;
+  float: right;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 16px;
+  color: rgba(255, 0, 0, 0.3);
+  padding-left: 20px; }
+
+p:hover {
+  color: red; }
+
+.spacing {
+  padding: 0 10px; }
+
+.read {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin: 0px 20px;
+  padding: 2px 20px;
+  color: rgba(30, 144, 255, 0.6);
+  font-size: 16px;
+  cursor: pointer;
+  font-style: italic;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+.searchBox {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(0, 144, 255, 0.6); }
+
+.searchBoxContainer {
+  margin: 20px auto;
+  width: 300px;
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  background-color: white; }
+
+.searchBoxContainer:hover {
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+.fas {
+  color: rgba(30, 144, 255, 0.6);
+  font-size: 20px;
+  cursor: pointer;
+  padding-left: 20px; }
+
+::placeholder {
+  font-style: italic;
+  color: rgba(30, 144, 255, 0.3); }
+
+.hideButton {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2px 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Montserrat', sans-serif;
+  margin: 30px;
+  border-radius: 10px;
+  color: rgba(30, 144, 255, 0.6); }
+
+.presentStatus {
+  border: 2px solid rgba(0, 0, 0, 0.5); }
+
+.border {
+  border: 2px solid dodgerblue; }
+
+/*# sourceMappingURL=main.css.map */
